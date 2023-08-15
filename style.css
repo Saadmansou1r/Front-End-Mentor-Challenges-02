@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(228, 228, 228);
+}
+
+.card {
+  width: 35%;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 12%;
+  display: flex;
+  border-radius: 20px;
+}
+
+.result-side {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(hsl(256, 95%, 61%), hsl(244, 100%, 53%));
+  text-align: center;
+  border-radius: 20px;
+}
+
+.result-side .res {
+  padding-top: 70px;
+  color: rgba(255, 255, 255, 0.699);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(hsl(256, 96%, 55%), hsl(244, 100%, 59%));
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.circle-text {
+  margin: auto;
+  padding-top: 30px;
+}
+.circle-text h1 {
+  color: white;
+  font-size: 60px;
+}
+.circle-text p {
+  color: rgba(255, 255, 255, 0.397);
+}
+
+.description {
+  margin-top: 30px;
+}
+.description h1 {
+  color: rgba(255, 251, 251, 0.952);
+  font-weight: 600;
+}
+.description p {
+  margin-top: 10px;
+  width: 70%;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.616);
+}
+.summary-side {
+  width: 50%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+.summary {
+  margin-left: 35px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 630;
+}
+.ser div {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+.ser p,
+svg {
+  margin-left: 15px;
+  margin-top: 8px;
+}
+.Reaction {
+  background-color: hsla(0, 100%, 67%, 0.151);
+  height: 45px;
+  border-radius: 15px;
+}
+.Reaction p{
+    color: hsla(0, 100%, 67%);
+}
+.memory {
+  background-color: hsl(39, 100%, 56%, 0.151);
+  height: 45px;
+  border-radius: 15px;
+}
+.memory p{
+    color: hsl(39, 100%, 56%);   
+}
+.verbal {
+  background-color: hsla(166, 100%, 37%, 0.055);
+  height: 45px;
+  border-radius: 15px;
+}
+.verbal p{
+    color:hsla(166, 100%, 37%) ;
+}
+.visual {
+  background-color: hsl(234, 85%, 45%, 0.151);
+  height: 45px;
+  border-radius: 15px;
+}
+.visual p{
+    color: hsl(234, 85%, 45%);
+}
+h5 {
+  margin-top: 11px;
+  font-size: 16px;
+  margin: auto;
+  margin-right: 10px;
+}
+
+span {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.541);
+}
+
+.btn {
+  margin: 30px;
+  border-radius: 30px;
+  width: 80%;
+  height: 40px;
+  border: none;
+  background-color: #303b59fe;
+  color: white;
+}
+svg{
+    margin-top: 11px;
+}
